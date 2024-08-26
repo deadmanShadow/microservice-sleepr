@@ -22,15 +22,45 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# Sleepr Microservice
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A **microservice** built with the [NestJS](https://nestjs.com/) framework, designed for efficiency, scalability, and modularity. This microservice, named **Sleepr**, is part of a larger application architecture.
+
+## Features
+
+- **Efficient Architecture**: Built on the progressive Node.js framework, NestJS.
+- **Modular Design**: Easily extensible and maintainable.
+- **Integrated with MongoDB**: Utilizes Mongoose for seamless database interactions.
+- **Logging with Pino**: Fast and structured logging for production environments.
+
+## Technologies Used
+
+- **NestJS**: A progressive Node.js framework for building efficient and scalable server-side applications.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **MongoDB**: A NoSQL database for storing and retrieving data, integrated using Mongoose.
+- **Mongoose**: An elegant MongoDB object modeling tool designed to work in an asynchronous environment.
+- **Joi**: A powerful schema description language and data validator for JavaScript.
+- **RxJS**: A library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.
+- **Pino**: A fast, low-overhead logging library, with Pino-HTTP and Pino-Pretty for enhanced logging capabilities.
+- **ESLint**: A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript.
+- **Prettier**: An opinionated code formatter to ensure consistent code style.
+- **Jest**: A delightful JavaScript testing framework with a focus on simplicity.
+- **Docker**: A platform to develop, ship, and run applications inside containers, used here for e2e testing.
+- **Rimraf**: A deep deletion module for Node, used to clean up the build directory.
+- **Express**: A minimal and flexible Node.js web application framework, providing a robust set of features for web and mobile applications.
+- **Cookie-Parser**: Middleware to parse cookies attached to client requests.
+- **Source-Map-Support**: Provides source map support for stack traces in node.js.
+
+## Installation
+
+````bash
+$ npm install
 
 ## Installation
 
 ```bash
 $ npm install
-```
+````
 
 ## Running the app
 
@@ -57,17 +87,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
